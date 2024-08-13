@@ -1,0 +1,40 @@
+:root{
+    --cor-de-fundo: #1D4221;
+    --cor-botao: #64A712;
+    --cor-de-fonte: white;
+    --fonte-principal: "Bai Jamjuree", sans-serif;
+}
+
+body {
+    background-color:var(--cor-de-fundo);
+    color: var(--cor-de-fonte);
+    font-family: var(--fonte-principal);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+    margin: 0;
+}
+
+button {
+    background-color: var(--cor-botao);
+    color: var(--cor-de-fonte);
+    font-family: var(--fonte-principal);
+}
+
+.passo {
+    display: none;
+}
+
+.passo.ativo {
+    display: block;
+}
+
+main {
+    text-align: center;
+    max-width: 90%;
+}
+
+img{
+    max-width: 90%;
+}
